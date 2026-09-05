@@ -1,16 +1,15 @@
-## Hi there 👋
+# Hi, I'm Tomas
 
-<!--
-**kvidzibo/kvidzibo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a senior software engineer building products with React, TypeScript and Node.js. My commercial work spans real-time applications, frontend architecture and observability; my personal open-source work focuses on practical AI-agent tooling.
 
-Here are some ideas to get you started:
+## Selected projects
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+These are personal open-source extensions for the [Pi coding agent](https://github.com/earendil-works/pi), separate from my employer's work:
+
+| Project | What it does | Engineering focus |
+| --- | --- | --- |
+| [pi-delegate](https://github.com/kvidzibo/pi-delegate) | Gives a Pi coding agent focused child agents, with configurable local or hosted models. | Bounded concurrency, background jobs, cancellation and process lifecycle handling. |
+| [pi-browser](https://github.com/kvidzibo/pi-browser) | Adds browser interaction to Pi using Patchright/Chromium and isolated profiles. | Page snapshots, explicit origin grants and network controls. |
+| [pi-web-access](https://github.com/kvidzibo/pi-web-access) | Adds keyless search, page-to-Markdown fetching and cached-content lookup to Pi. | HTTP handling, DNS-pinned requests and response caching. |
+
+Each project has installation instructions, automated tests and documented limitations. All three are MIT-licensed and published on npm under [`@kvidzibo`](https://www.npmjs.com/~kvidzibo); repository source can be ahead of the published version.
